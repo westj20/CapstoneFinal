@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edittext_background">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Top Five Departments"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Use a LinearLayout to hold the BarChart -->
+    <LinearLayout
+        android:id="@+id/chartContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:textSize="24dp">
+
+        <!-- This TextView will be replaced with BarChart entries dynamically -->
+        <TextView
+            android:id="@+id/dummyChartEntry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="24dp" />
+
+        <!-- Add more TextViews here if needed -->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:text="These are key departments, and their importance is contingent on the number of zones. Consider evaluating and recognizing them as top departments based on their respective zones."
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+</RelativeLayout>

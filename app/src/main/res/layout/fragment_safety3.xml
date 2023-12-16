@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/auditbk"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/goblin_one"
+        android:text="Safety"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Question 23 -->
+    <TextView
+        android:id="@+id/questionQ23TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerTextView"
+        android:layout_marginTop="30dp"
+        android:text="Emergency Response Procedures:\n\nAre emergency response procedures well-documented and communicated to all employees, and how often are drills conducted to ensure readiness in case of emergencies?"
+        android:textSize="20sp" />
+
+    <!-- Radio Buttons -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="376dp"
+        android:layout_height="111dp"
+        android:layout_below="@+id/questionQ23TextView"
+        android:layout_marginTop="30dp">
+
+        <RadioButton
+            android:id="@+id/yesQ23RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/noQ23RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/safety2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView" />
+
+</RelativeLayout>

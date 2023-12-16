@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">SixSMobileApp</string>
+    <string name="create_audit">Create Department</string>
+    <string name="create_zone">Create Zone</string>
+    <string name="audit">Audit</string>
+    <string name="training">Training</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Settings</string>
+    <string name="printing">Printer Setup</string>
+    <string name="email">Email Setup</string>
+    <string name="tool">Tools</string>
+    <string name="printable">Printable Games</string>
+    <string name="back">Back</string>
+    <string name="time6S">Sort, Set, Standardize, Sustain, and Shine</string>
+    <string name="start">Start Audit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="setup">Audit Setup</string>
+    <string name="selectDZ">Select Department and Zone if "Zone is Needed"</string>
+    <string name="spinner_prompt_department">Department</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="create_department">Create Department</string>
+    <string name="auditing">Auditing</string>
+    <string name="title_activity_completed">CompletedActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="submittext">When you click the submit button, the audit data will be securely saved to the database, ensuring the preservation of crucial information. Additionally, the submission process triggers an automatic update to the dashboard, reflecting the latest changes and providing real-time insights. This seamless integration between data submission and dashboard updates enhances the efficiency of the auditing system, facilitating informed decision-making based on the most up-to-date information.</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

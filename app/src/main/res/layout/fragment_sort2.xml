@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/auditbk"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/goblin_one"
+        android:text="Sort"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Question 1 -->
+    <TextView
+        android:id="@+id/questionQ2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerTextView"
+        android:layout_marginTop="30dp"
+        android:text="Identification and Removal of Unnecessary Items:\n\nHow regularly is the workspace reviewed to identify and eliminate items that are not essential for current operations?"
+        android:textSize="20sp" />
+
+    <!-- Radio Buttons -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="376dp"
+        android:layout_height="111dp"
+        android:layout_below="@+id/questionQ2TextView"
+        android:layout_marginTop="30dp">
+
+        <RadioButton
+            android:id="@+id/yesQ2RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/noQ2RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <!-- Moved TextView to Bottom Right Corner -->
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView" />
+
+</RelativeLayout>

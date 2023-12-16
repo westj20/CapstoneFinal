@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:checkable="false"
+        android:enabled="true"
+        android:title="@string/tool" />
+    <group android:checkableBehavior="single">
+
+        <!-- Change the ID to match the menu item ID -->
+        <item
+            android:id="@+id/create_department"
+            android:icon="@drawable/create_audit"
+            android:title="@string/create_department" />
+        <item
+            android:id="@+id/create_zone"
+            android:icon="@drawable/create_audit"
+            android:title="@string/create_zone" />
+        <item
+            android:id="@+id/audit"
+            android:icon="@drawable/audit"
+            android:title="@string/audit" />
+        <item
+            android:id="@+id/training"
+            android:icon="@drawable/training"
+            android:title="@string/training" />
+    </group>
+
+    <item
+        android:checkable="false"
+        android:enabled="true"
+        android:title="@string/setting" />
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/email"
+            android:icon="@drawable/ic_baseline_email_24"
+            android:title="@string/email" />
+        <item
+            android:id="@+id/printer"
+            android:icon="@drawable/printer"
+            android:title="@string/printing" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+    </group>
+</menu>
